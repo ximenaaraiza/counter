@@ -12,7 +12,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Click buttons to change the counter ")
+                .padding()
             Text("\(count)")
+                .padding()
             HStack{
                 Button("Decrement",action: decrement)
                     .padding()
